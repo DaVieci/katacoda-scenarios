@@ -6,7 +6,7 @@
   "details": {
     "assets": {
       "host01": [
-        {"file": "./assets/file1.txt", "target": "/"}
+        {"file": "*", "target": "~/"}
       ]
     },
     "steps": [
