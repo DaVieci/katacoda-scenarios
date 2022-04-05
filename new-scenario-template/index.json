@@ -4,6 +4,11 @@
   "difficulty": "Intermediate",
   "time": "3 minutes",
   "details": {
+    "assets": {
+      "host01": [
+        {"file": "./assets/file1.txt", "target": "/"}
+      ]
+    },
     "steps": [
       {
         "title": "Step 1",
