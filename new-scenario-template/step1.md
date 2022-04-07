@@ -1,8 +1,12 @@
-# Apache Spark
+# What is that?
 
-This is some text.
+...
 
-Here's a single line of runnable code:
+# Why is it used?
 
-`printf 'Hello, world!\n\n'`{{execute}}
+...
 
+# Setting up foundation
+
+`from pyspark.sql import SparkSession` {{execute}}
+`spark = SparkSession.builder.getOrCreate()` {{execute}}
