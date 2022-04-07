@@ -8,5 +8,7 @@
 
 # Setting up foundation
 
-`from pyspark.sql import SparkSession` {{execute}}
-`spark = SparkSession.builder.getOrCreate()` {{execute}}
+Please wait until you see `>>>` on the right side of the screen before you click on the code lines below.
+
+`from pyspark.sql import SparkSession`{{execute}}
+`spark = SparkSession.builder.getOrCreate()`{{execute}}
