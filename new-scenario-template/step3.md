@@ -1,4 +1,4 @@
-# Heading for Step 3
+# Performing Transformations on Data
 
 This is some text.
 

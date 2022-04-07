@@ -1,4 +1,4 @@
-# Heading for Step 1
+# Apache Spark
 
 This is some text.
 

@@ -11,15 +11,15 @@
     },
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Apache Spark",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Reading and Accessing Data",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Performing Transformations on Data",
         "text": "step3.md"
       }
     ],

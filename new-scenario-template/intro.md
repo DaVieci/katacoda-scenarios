@@ -1,31 +1,25 @@
-# New Scenario Template (Your Title Here)
+# Data Handling in PySpark compared to Python
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Welcome to the katakoda scenario "Data Handling in PySpark compared to Python"!
 
 ## Description
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+In this short scenario, you will learn how to access and transform different kinds of data using Apache Spark. Moreover, you will see how that data handling would be done in Python in contrast to the approach in PySpark. 
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
+- Read data from different kinds of files
+- Perform transformations on that data
+- Understand the difference between Spark and Python when working with big data
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
-
-This is for software developers with prior experience using Jenkins to deploy web applications.
+This is mainly for computer science students or ongoing data scientists with prior experience using Python for data analysis.
 
 ## Table of Contents
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+- Apache Spark
+- Reading and Accessing Data
+- ...
 
 
