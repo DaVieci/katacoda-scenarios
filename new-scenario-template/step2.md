@@ -20,7 +20,7 @@ Furthermore, since it is a dataframe which holds a collection of rows, one can p
 In addition to that, it might be useful to only count rows which for instance contain a certain word. The next example shows how to count rows that has at least one 'ipsum'. 
 `sdf_filtered = sdf.filter(sdf.value.contains("ipsum"))`{{execute}}
 
-The line above creates a new dataframe. A filter was applied on the old dataframe to only select certain rows that have 'ipsum' in them. Now, use the 'count()' function on the new dataframe to see the results.
+The line above creates a new dataframe. A filter was applied on the old dataframe to only select certain rows that contain the word 'ipsum'. Now, use the 'count()' function on the new dataframe to see the results.
 `sdf_filtered.count()`{{execute}}
 
 # Python
@@ -33,3 +33,12 @@ To load the content of the text file into python, one needs to open that file in
 
 Now let's print out the first row. Since the data is stored in a list, one only needs to print out the first element from that list:
 `lines[0]`{{execute}}
+
+The output is shown in terminal on the right side. Unlike in PySpark, you can see that a string was printed out containing the text instead of a Row object. 
+
+Furthermore, to get the total amount of lines, one can simply use 'len()':
+`len(lines)`{{execute}}
+
+However, it can get a bit more difficult when it comes to filtering, so we need another strategy here which is called list comprehension. This is a powerful method in python that is used to carry out expressions on items in a list. Let's say we want to filter our list by the word 'ipsum' and then count the matching items just like above. This can be done like the following:
+`lines_filtered = [row for row in lines if "ipsum" in ]`{{execute}}
+`len(lines_filtered)`{{execute}}
