@@ -1,7 +1,7 @@
 {
   "title": "Data Handling in PySpark compared to Python",
   "description": "Learn about the differences between PySpark and Python when processing data",
-  "difficulty": "Intermediate",
+  "difficulty": "Beginner",
   "time": "3 minutes",
   "details": {
     "assets": {
