@@ -15,12 +15,28 @@
         "text": "step1.md"
       },
       {
-        "title": "Working with text files",
+        "title": "Setting Up Environment",
         "text": "step2.md"
       },
       {
-        "title": "Performing Transformations on Data",
+        "title": "Reading and Creating Data",
         "text": "step3.md"
+      },
+      {
+        "title": "Viewing Data",
+        "text": "step4.md"
+      },
+      {
+        "title": "Filtering Data",
+        "text": "step5.md"
+      },
+      {
+        "title": "Transforming Data",
+        "text": "step6.md"
+      },
+      {
+        "title": "Writing and Saving Data",
+        "text": "step7.md"
       }
     ],
     "intro": {
