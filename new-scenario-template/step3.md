@@ -23,8 +23,8 @@ This section here covers the approach of loading a csv file. So, we again start 
 ...
 
 ```python
-cdf = spark.read.format("csv")
-    .option("header", "True")
-    .option("sep", ",")
+cdf = spark.read.format("csv") \
+    .option("header", "True") \
+    .option("sep", ",") \
     .load(csv_file)
 ```{{execute}}

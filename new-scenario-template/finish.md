@@ -15,5 +15,6 @@ You could link to other learning resources here. What is a good next step for a 
 
 ## Sources
 
-...
+https://spark.apache.org/docs/latest/quick-start.html
+https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
 
