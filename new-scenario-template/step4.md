@@ -1,6 +1,6 @@
 ...
 
-# TXT File
+# TXT File Data
 
 To get an idea how the content of the file looks like, it can be helpful to print out the very first line of that file by executing this:
 `spark_txt.first()`{{execute}}
@@ -11,14 +11,14 @@ Furthermore, since it is a dataframe which holds a collection of rows, one can p
 `spark_txt.count()`{{execute}}
 
 Now let's print out the first row by using python. Since the data is stored in a list, one only needs to print out the first element from that list:
-`lines_list[0]`{{execute}}
+`python_txt[0]`{{execute}}
 
 The output is shown in the terminal on the right side. Unlike in PySpark, you can see that the text was printed out which is actually a string instead of a Row object.
 
 Furthermore, to get the total amount of lines, one can simply use `len()` to print out the list size:
-`len(lines_list)`{{execute}}
+`len(python_txt)`{{execute}}
 
-# CSV File
+# CSV File Data
 
 ...
 `spark_csv.printSchema()`{{execute}}

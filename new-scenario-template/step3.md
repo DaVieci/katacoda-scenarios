@@ -1,7 +1,7 @@
 This step shows how one can read and create data from files in PySpark and Python in general.
 It is divided into 2 sections which cover approaches for loading txt and csv files.
 
-# TXT File
+# TXT File Data
 
 In this first section, an approach will be shown how to load a txt file into the memory. First of all, let's declare a variable that holds the filename of that text file:
 `text_file = "file1.txt"`{{execute}}
@@ -15,7 +15,7 @@ f = open(text_file, 'r')
 python_txt = f.readlines()
 ```{{execute}}
 
-# CSV File
+# CSV File Data
 
 This section here covers the approach of loading a csv file. So, we again start with declaring a variable again that hold the name of the csv file:
 `csv_file = "file2.csv"`{{execute}}
