@@ -4,6 +4,32 @@
 
 ...
 
+`import pyspark.sql.functions as f`{{execute}}
+
+...
+
+```python
+replacer = f.regexp_replace(f.col("value"), "[,.!?]", "")
+spark_txt_transformed = spark_txt_filtered.select("value", replacer.alias("replaced"))
+```{{execute}}
+
+...
+
+`spark_txt_transformed.show()`{{execute}}
+
+...
+
+import re
+
+...
+
+python_txt_transformed = [re.sub("[.,?!]", "", row) for row in python_txt_filtered]
+
+```python
+for row in python_txt_transformed:
+    print(row)
+```{{execute}}
+
 # CSV File Data
 
 ...

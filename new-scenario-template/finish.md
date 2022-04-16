@@ -18,3 +18,4 @@ You could link to other learning resources here. What is a good next step for a 
 https://spark.apache.org/docs/latest/quick-start.html
 https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
 
+https://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html#pyspark.sql.functions.regexp_replace
