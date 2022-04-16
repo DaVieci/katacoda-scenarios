@@ -9,7 +9,7 @@ In this first section, an approach will be shown how to load a txt file into the
 The text file needs to be loaded into PySpark by creating a dataframe which contains all rows of that specific file. That can be accomplished by the following line:
 `spark_txt = spark.read.text(text_file)`{{execute}}
 
-On the other hand, if one wants to load the content of a text file in native python, one may use the function `readlines()`. That function gathers all lines in the file and writes them into a list. That is pretty simple to do. Please click on the first code line, than on the second line below:
+On the other hand, if one wants to load the content of a text file in native python, one may use the function `readlines()`. That function gathers all lines in the file and writes them into a list. That is pretty simple to do:
 ```python
 f = open(text_file, 'r')
 python_txt = f.readlines()
