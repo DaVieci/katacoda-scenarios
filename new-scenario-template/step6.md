@@ -4,12 +4,12 @@
 
 ...
 
-`import pyspark.sql.functions as f`{{execute}}
+`import pyspark.sql.functions as F`{{execute}}
 
 ...
 
 ```python
-replacer = f.regexp_replace(f.col("value"), "[,.!?]", "")
+replacer = F.regexp_replace(F.col("value"), "[,.!?]", "")
 spark_txt_transformed = spark_txt_filtered.select("value", replacer.alias("replaced"))
 ```{{execute}}
 
@@ -19,17 +19,19 @@ spark_txt_transformed = spark_txt_filtered.select("value", replacer.alias("repla
 
 ...
 
+`spark_txt_transformed = spark_txt_transformed.drop("value")`{{execute}}
+
+...
+
 `import re`{{execute}}
 
 ...
 
 `python_txt_transformed = [re.sub("[.,?!]", "", row) for row in python_txt_filtered]`{{execute}}
 
-```python
-for row in python_txt_transformed:
-    print(row)
-    
-```{{execute}}
+...
+
+`print(*python_txt_transformed)`{{execute}}
 
 # CSV File Data
 
