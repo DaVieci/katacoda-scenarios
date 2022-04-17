@@ -18,8 +18,14 @@ Interactive Analysis with the Spark Shell (n.d.). Retrieved from https://spark.a
 
 Petty, J. (2021). List Comprehensions in Python. Retrieved from https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
 
+...
 
 https://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html#pyspark.sql.functions.regexp_replace
+
+
+Buckenhofer, A. (2022). Apache Spark. Data Warehouse lecture: 04 Tools. DHBW Stuttgart.
+
+Buckenhofer, A. (2022). Spark pros and cons. Data Warehouse lecture: 04 Tools. DHBW Stuttgart.
 
 Erlking portrait. Retrieved from https://www.schubertlied.de/images/Erlking-Schwind.jpg
 

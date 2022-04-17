@@ -28,7 +28,7 @@ The text file contains a famous poem from Johann Wolfgang von Goethe called "Erl
 
 # CSV File Data
 
-In the next section, you will see how the data from the csv file can be displayed. In contrast to the txt file data, this data is structured in rows and columns. That is why we need to use other approaches to view the data. First of all, since the data is stored as a schema in pyspark, we can call `printSchema()`:
+In the next section, you will see how the data from the csv file can be displayed. In contrast to the txt file data, this data is structured in rows and columns. That is why we need to use other approaches to view the data. First of all, since the data is stored as a schema in pyspark, we can call `printSchema()` (Kakarla et al., 2021, p. 39):
 
 `spark_csv.printSchema()`{{execute}}
 
@@ -36,7 +36,7 @@ As seen in the terminal, the function prints out all column names and their dedi
 
 `spark_csv.show()`{{execute}}
 
-That function, on the other hand, prints out the first 20 rows of the dataframe with all columns.
+That function, on the other hand, prints out the first 20 rows of the dataframe with all column values (Kakarla et al., 2021, p. 40-41). Now, let's see how it is done in python.
 
 `python_csv.info()`{{execute}}
 
