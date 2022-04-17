@@ -22,6 +22,8 @@ Furthermore, to get the total amount of lines, one can simply use `len()` to pri
 
 `len(python_txt)`{{execute}}
 
+The text file contains a famous poem from Johann Wolfgang von Goethe called "Erlking".
+
 ![Erlking Portrait](./assets/erlking.jpg)
 
 # CSV File Data
@@ -43,3 +45,7 @@ That function, on the other hand, prints out the first 20 rows of the dataframe 
 `python_csv.head(20)`{{execute}}
 
 ...
+
+The csv file contains data about country codes and regions.
+
+![ISO country codes map](./assets/iso-country-codes.jpg)

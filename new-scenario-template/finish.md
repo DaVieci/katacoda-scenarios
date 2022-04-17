@@ -13,7 +13,14 @@ Feel free to visit
 
 Kakarla, R., Krishnan, S. & Alla, S. (2021). Applied Data Science Using Pyspark: Learn the End-To-End Predictive Model-Building Cycle. Apress.
 
-https://spark.apache.org/docs/latest/quick-start.html
-https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
+Interactive Analysis with the Spark Shell (n.d.). Retrieved from https://spark.apache.org/docs/latest/quick-start.html#interactive-analysis-with-the-spark-shell
+
+
+Petty, J. (2021). List Comprehensions in Python. Retrieved from https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
+
 
 https://spark.apache.org/docs/2.1.0/api/python/pyspark.sql.html#pyspark.sql.functions.regexp_replace
+
+Erlking portrait. Retrieved from https://www.schubertlied.de/images/Erlking-Schwind.jpg
+
+World map with ISO country codes. Retrieved from https://www.heliosdesign.com/export/sites/helios/images/glossary/iso-country-codes-around-the-world.jpg
