@@ -1,19 +1,17 @@
 
 Congratulations, you have finished this katacoda scenario!
 
-## Table of Contents
+## Conclusion
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
+In conclusion, there are advantages and disadvantages when it comes to data handling in Spark compared to Python. Doing stuff in pyspark can get a bit more complicated depending on the application or the size of the project whereas python is pretty simple and straightforward when it comes to loading data from files into a dataset or cleaning and transforming data in general. However, python (and especially pandas) is definitly not created for analysing a large amount of data that has let's say a few gigabytes in size since that data will get stored in the memory - which is limited in every computer. Apache Spark, on the other hand, was mainly created to process big data. 
 
 ## Further Learning
 
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
+Feel free to visit 
 
 ## Sources
+
+Kakarla, R., Krishnan, S. & Alla, S. (2021). Applied Data Science Using Pyspark: Learn the End-To-End Predictive Model-Building Cycle. Apress.
 
 https://spark.apache.org/docs/latest/quick-start.html
 https://www.pythonforbeginners.com/basics/list-comprehensions-in-python
