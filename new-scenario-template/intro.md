@@ -19,7 +19,11 @@ This katacoda was mainly created for computer science students or ongoing data s
 ## Table of Contents
 
 - Apache Spark
+- Setting Up Environment
 - Reading and Accessing Data
-- ...
+- Viewing Data
+- Filtering Data
+- Transforming Data
+- Writing and Saving Data
 
 

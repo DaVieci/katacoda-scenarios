@@ -1,4 +1,4 @@
-This step shows how one can read and create data from files in PySpark and Python in general.
+This step shows how one can read and access data from files in PySpark and Python in general.
 It is divided into 2 sections which cover approaches for loading a txt file and a csv file.
 
 # TXT File Data
