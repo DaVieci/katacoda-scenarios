@@ -33,6 +33,6 @@ spark_csv = spark.read.format("csv") \
     .load(csv_file)
 ```{{execute}}
 
-Moreover, loading csv files can also be pretty easy in python. The pandas library provides a function called `read_csv()` to read csv files from the disk. It can be used like to following:
+Moreover, loading csv files can also be pretty easy in python. The pandas library provides a function called `read_csv()` to read csv files from the disk ("Pandas Cheat Sheet", 2020). It can be used like the following:
 
 `python_csv = pd.read_csv(csv_file)`{{execute}}

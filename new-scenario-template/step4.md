@@ -2,13 +2,13 @@ Furthermore, it might be useful to know what data is stored in those both files,
 
 # TXT File Data
 
-To get an idea how the content of the text file looks like, it can be helpful to print out the very first line by executing this:
+To get an idea how the content of the text file looks like, it can be helpful to print out the very first line by executing this ("Interactive Analysis with the Spark Shell", n.d.):
 
 `spark_txt.first()`{{execute}}
 
 You can see the output in the terminal on the right side. The shown value is basically the content of the first line of that file.
 
-Furthermore, since it is a dataframe which holds a collection of rows, one can print out the total number of rows that the text file has. That can be done by the `count()` function.
+Furthermore, since it is a dataframe which holds a collection of rows, one can print out the total number of rows that the text file has. That can be done by the `count()` function ("Interactive Analysis with the Spark Shell", n.d.).
 
 `spark_txt.count()`{{execute}}
 
@@ -40,11 +40,11 @@ That function, on the other hand, prints out the first 20 rows of the dataframe 
 
 `python_csv.info()`{{execute}}
 
-...
+The `info()` function from pandas shows more detailed information about the dataframe as seen in the output. Besides the column names and the data types, the number of non-null values are also displayed in the terminal. To see the actual data, one can execute the following line:
 
 `python_csv.head(20)`{{execute}}
 
-...
+As seen in the terminal, the first 20 rows of the dataframe was printed out with the use of the `head()` function ("Pandas Cheat Sheet", 2020). However, not all columns were able to be displayed due to the lack of place in the terminal. Furthermore, judging by the look of that table, it seems like the `show()` function of pyspark can visualise the data in a more appropriate way than python.
 
 The csv file contains data about country codes and regions.
 
