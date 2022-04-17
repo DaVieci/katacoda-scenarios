@@ -1,6 +1,6 @@
 This step will give you an introduction to Apache Spark and show you why the tool is so commonly used today.
 
-![Spark Summary](./assets/spark-summary.PNG)
+![Erlking Portrait](./assets/erlking.jpg)
 
 # What is that?
 
