@@ -1,8 +1,8 @@
-...
+Furthermore, it might be useful to know what data is stored in those both files, so let's display them in the terminal. 
 
 # TXT File Data
 
-To get an idea how the content of the file looks like, it can be helpful to print out the very first line of that file by executing this:
+To get an idea how the content of the text file looks like, it can be helpful to print out the very first line by executing this:
 
 `spark_txt.first()`{{execute}}
 
@@ -22,17 +22,19 @@ Furthermore, to get the total amount of lines, one can simply use `len()` to pri
 
 `len(python_txt)`{{execute}}
 
+![Erlking Portrait](./assets/erlking.jpg)
+
 # CSV File Data
 
-...
+In the next section, you will see how the data from the csv file can be displayed. In contrast to the txt file data, this data is structured in rows and columns. That is why we need to use other approaches to view the data. First of all, since the data is stored as a schema in pyspark, we can call `printSchema()`:
 
 `spark_csv.printSchema()`{{execute}}
 
-...
+As seen in the terminal, the function prints out all column names and their dedicated data type. To see the actual data that is stored in the dataframe, one can also execute this:
 
 `spark_csv.show()`{{execute}}
 
-...
+That function, on the other hand, prints out the first 20 rows of the dataframe with all columns.
 
 `python_csv.info()`{{execute}}
 

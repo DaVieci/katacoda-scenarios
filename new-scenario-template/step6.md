@@ -45,7 +45,7 @@ The result will look like this:
 
 ...
 
-`python_csv_transformed = python_csv_filtered.groupby('region').size()`{{execute}}
+`python_csv_transformed = python_csv_filtered.groupby('region').size().to_frame('size')`{{execute}}
 
 result:
 
