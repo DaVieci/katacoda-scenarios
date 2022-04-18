@@ -2,6 +2,9 @@
 
 Welcome to the katakoda scenario "Data Handling in PySpark compared to Python"!
 
+## Abstract
+Data has become a huge topic in our digital world nowadays. Dealing with it can sometimes be a tedious and time-consuming job since the data can change rapidly or grow very fast in a short time. Think about certain kinds of health data which are tracked by a smartwatch you wear while you are going for a jog or shopping data from online stores that tries to figure out your purchasing behaviour. ...
+
 ## Description
 
 In this short scenario, you will learn how to access and transform data from different kinds of sources using Apache Spark. Moreover, you will see how that data handling would be done in Python in contrast to the approach in PySpark. 

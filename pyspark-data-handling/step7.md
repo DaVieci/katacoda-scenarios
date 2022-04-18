@@ -8,7 +8,7 @@ The text data is now ready to be saved to a file. In contrast to the read operat
 
 This operation has created a new folder in the same directory called `erlking` where one can find a txt file containing the data from `spark_txt_transformed`.
 
-Python, on the other hand, provides a lot of different methods to save data to a file. The more convinient one would be to print out content of the list `python_txt_transformed` into a file (instead of printing it on the terminal). This can be done by defining a new file with "open":
+Python, on the other hand, provides a lot of different methods to save data to a file. The more convinient one would be to print out the content of the list `python_txt_transformed` into a file (instead of printing it on the terminal). This can be done by defining a new file with "open":
 
 ```python
 f = open('erlking.txt', 'w')
