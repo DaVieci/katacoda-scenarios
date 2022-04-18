@@ -13,7 +13,7 @@ Feel free to visit the official Spark website to learn more about programming in
 
 Kakarla, R., Krishnan, S. & Alla, S. (2021). Applied Data Science Using Pyspark: Learn the End-To-End Predictive Model-Building Cycle. Apress.
 
-Interactive Analysis with the Spark Shell (n.d.). Retrieved from https://spark.apache.org/docs/latest/quick-start.html#interactive-analysis-with-the-spark-shell
+(n.d.). Interactive Analysis with the Spark Shell. Retrieved from https://spark.apache.org/docs/latest/quick-start.html#interactive-analysis-with-the-spark-shell
 
 (2020). Pandas Cheat Sheet. Retrieved from https://www.dataquest.io/blog/pandas-cheat-sheet/
 

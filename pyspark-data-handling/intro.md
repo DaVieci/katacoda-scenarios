@@ -1,6 +1,6 @@
 # Data Handling in PySpark compared to Python
 
-Welcome to the katakoda scenario "Data Handling in PySpark compared to Python"!
+Welcome to the katacoda scenario "Data Handling in PySpark compared to Python"!
 
 ## Abstract
 Data has become a huge topic in our digital world nowadays. Dealing with it can sometimes be a tedious and time-consuming job since the data can change rapidly or grow very fast in a short time. Think about certain kinds of health data which are tracked by a smartwatch you wear while you are going for a jog or shopping data from online stores that tries to figure out your purchasing behaviour. These forms of data can make the data handling difficult. However, Apache Spark was created to make the processing of those kinds of data more convinient. 

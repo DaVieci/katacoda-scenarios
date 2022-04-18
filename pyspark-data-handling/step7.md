@@ -22,10 +22,10 @@ The operation above has created a new text file called `erlking.txt` in the same
 
 When it comes to saving dataframes to csv files in pyspark, one can declare additional options to the operation such as defining the existence of a header. Other than that, it is a pretty similar approach like above.
 
-spark_csv_transformed.write.option("header","true").csv("./regions")
+`spark_csv_transformed.write.option("header","true").csv("./regions")`{{execute}}
 
 Pyspark will again create an extra directory again called `regions` that holds a txt file with the data.
 
 The python way, on the other hand, is also simple and straightforward. Pandas provides a function called `to_csv()` to save dataframes to csv files ("Pandas Cheat Sheet", 2020).
 
-python_csv_transformed.to_csv('regions.csv')
+`python_csv_transformed.to_csv('regions.csv')`{{execute}}
